@@ -1,29 +1,23 @@
 import tensorflow as tf
 import os
-import cv2
+from PIL import Image
+import numpy as np
 
-def weight_variable(shape):
-    initial = tf.Variable(tf.truncated_normal(shape=shape, stddev=0.1))
-    return initial
-
-
-def bias_variable(shape):
-    initial = tf.Variable(tf.truncated_normal(shape=shape, stddev=0.1))
-    return initial
-
-
-def conv2d(x, w, bias):
-    initial = tf.nn.conv2d(x, w, strides=[1, 1, 1, 1], padding='SAME') + bias
-    return initial
-
-def max_pool_2x2(x):
-    initial = tf.nn.max_pool(x, ksize=[1, 2, 2, 1], strides=[1, 2, 2, 1], padding='SAME')
-    return initial
-
-def Reru(x):
-    return tf.nn.relu(x)
+flags = tf.app.flags
+FLAGS = flags.FLAGS
+FLAGS.images_size = 64
+FLAGS.image_color = 3
+FLAGS.maxpool_filter_size = 2
+FLAGS.num_classes = 5
+FLAGS.batch_size = 100
+FLAGS.learning_rate = 0.0001
+FLAGS.log_dir = 'log/'
 
 
-print(os.listdir('Face_Image/' + '문재인/'))
+def main():
+    images = tf.placeholder(tf.float32, [None, FLAGS.images_size, FLAGS.images_size, FLAGS.image_color])
+    labels = tf.placeholder(tf.float32, [None, FLAGS.num_classes])
+    image_batch, label
+Loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=))
 # 이미지 불러오기
 #img = cv2.imread('Face_Image/' + '문재인/')
