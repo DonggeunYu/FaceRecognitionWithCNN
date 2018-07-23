@@ -5,20 +5,9 @@ CNN(Convolution Neural Network)를 사용하여 얼굴을 인식하여 분류하
 
 ## Use Python Library
 
-Google Cloud Vision API
-~~~
-pip install --upgrade google-api-python-client
-~~~
-
-oauth2client
-~~~
-pip install --upgrade oauth2client
-~~~
-
-PIL
-~~~
-pip install image
-~~~
 
 ## Python File
 crop_face.py: 얼굴 사진 크로핑
+Image_Data/ 에 얼굴이 들어간 사진 불러오기
+Face_Image/ 크로핑이 완료된 사진 저장
+파일 디렉토리 구조가 바뀌어서 그대로는 사용 안됨!

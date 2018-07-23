@@ -14,10 +14,11 @@ FLAGS.learning_rate = 0.0001
 FLAGS.log_dir = 'log/'
 
 
-def main():
-    images = tf.placeholder(tf.float32, [None, FLAGS.images_size, FLAGS.images_size, FLAGS.image_color])
-    labels = tf.placeholder(tf.float32, [None, FLAGS.num_classes])
-    image_batch, label
-Loss = tf.reduce_mean(tf.nn.softmax_cross_entropy_with_logits(labels=))
+X = tf.placeholder(tf.float32, [None, FLAGS.images_size, FLAGS.images_size, FLAGS.image_color])
+Y_Label = tf.placeholder(tf.float32, [None, FLAGS.num_classes])
+
+with tf.Session() as sess:
+    sess.run(tf.global_variables_initializer())
+    for in
 # 이미지 불러오기
 #img = cv2.imread('Face_Image/' + '문재인/')
