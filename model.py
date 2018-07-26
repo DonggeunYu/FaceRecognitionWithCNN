@@ -19,6 +19,7 @@ Y_Label = tf.placeholder(tf.float32, [None, FLAGS.num_classes])
 
 with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
-    for in
+    for i in range(1000):
+        ra
 # 이미지 불러오기
 #img = cv2.imread('Face_Image/' + '문재인/')
