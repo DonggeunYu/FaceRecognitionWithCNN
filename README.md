@@ -7,7 +7,11 @@ CNN(Convolution Neural Network)를 사용하여 얼굴을 인식하여 분류하
 
 
 ## Python File
+
 crop_face.py: 얼굴 사진 크로핑
+convert.py: 이미지들을 train_data.bin와 eval_data.bin으로 만듬
+input.py: 이미지 데이터인 train_data.bin와 eval_data.bin을 image(x.data), label(y.data)로 나눈다.
 Image_Data/ 에 얼굴이 들어간 사진 불러오기
 Face_Image/ 크로핑이 완료된 사진 저장
 파일 디렉토리 구조가 바뀌어서 그대로는 사용 안됨!
+

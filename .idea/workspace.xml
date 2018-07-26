@@ -2,536 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c91fffa1-997f-4d73-bce1-2e9385e4a50b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/input.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/105.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/108.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/109.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/112.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/113.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/115.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/116.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/117.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/118.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/119.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/121.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/122.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/123.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/126.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/127.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/129.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/130.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/131.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/132.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/133.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/134.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/135.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/137.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/138.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/139.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/141.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/142.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/146.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/147.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/148.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/149.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/151.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/153.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/154.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/155.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/156.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/157.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/158.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/159.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/160.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/161.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/162.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/163.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/164.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/165.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/166.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/168.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/169.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/170.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/97.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/98.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/비와이/99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/105.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/108.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/109.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/112.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/113.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/115.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/116.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/117.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/118.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/119.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/121.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/122.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/123.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/126.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/127.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/129.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/130.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/131.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/132.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/133.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/134.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/135.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/137.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/138.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/139.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/141.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/142.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/146.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/147.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/148.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/149.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/151.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/153.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/154.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/155.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/156.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/157.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/158.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/159.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/160.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/161.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/162.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/163.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/164.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/165.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/166.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/168.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/169.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/170.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/171.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/172.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/173.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/174.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/175.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/176.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/177.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/178.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/179.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/180.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/181.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/182.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/97.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/98.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/손흥민/99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/100.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/101.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/102.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/103.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/104.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/105.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/106.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/107.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/108.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/109.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/110.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/111.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/112.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/113.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/114.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/115.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/116.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/117.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/118.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/119.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/120.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/121.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/122.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/123.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/124.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/125.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/126.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/127.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/128.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/129.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/130.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/131.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/132.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/133.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/134.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/135.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/136.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/137.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/138.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/139.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/140.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/141.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/142.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/143.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/144.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/145.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/146.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/147.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/148.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/149.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/150.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/151.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/152.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/153.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/154.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/155.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/156.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/157.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/158.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/159.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/160.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/161.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/162.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/163.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/164.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/165.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/166.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/167.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/168.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/169.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/17.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/170.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/171.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/172.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/173.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/174.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/18.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/19.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/20.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/23.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/24.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/25.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/26.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/27.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/29.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/31.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/33.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/34.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/36.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/37.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/39.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/40.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/41.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/42.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/43.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/44.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/45.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/46.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/47.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/48.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/49.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/50.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/51.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/52.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/53.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/54.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/55.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/56.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/57.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/58.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/60.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/61.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/62.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/63.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/64.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/65.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/66.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/67.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/68.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/69.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/70.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/71.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/72.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/73.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/74.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/75.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/76.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/77.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/78.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/79.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/80.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/81.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/82.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/83.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/84.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/85.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/86.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/87.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/88.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/89.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/90.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/91.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/92.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/93.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/94.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/95.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/96.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/97.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/98.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/트럼프/99.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/convert.py" beforeDir="false" afterPath="$PROJECT_DIR$/convert.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/labels.txt" beforeDir="false" afterPath="$PROJECT_DIR$/data/labels.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -542,10 +17,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Tensorflow_Face_Recognition_CNN$convert.coverage" NAME="convert Coverage Results" MODIFIED="1532579814517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tensorflow_Face_Recognition_CNN$convert.coverage" NAME="convert Coverage Results" MODIFIED="1532602261131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tensorflow_Face_Recognition_CNN$main.coverage" NAME="main Coverage Results" MODIFIED="1531790502178" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Tensorflow_Face_Recognition_CNN$crop_face.coverage" NAME="crop_face Coverage Results" MODIFIED="1532432005008" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Tensorflow_Face_Recognition_CNN$model.coverage" NAME="model Coverage Results" MODIFIED="1532305021931" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tensorflow_Face_Recognition_CNN$input.coverage" NAME="input Coverage Results" MODIFIED="1532611757538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Tensorflow_Face_Recognition_CNN$model.coverage" NAME="model Coverage Results" MODIFIED="1532612961609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -566,7 +42,7 @@
       <file leaf-file-name="Temp.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6528">
+            <state relative-caret-position="601">
               <caret line="272" column="31" selection-start-line="272" selection-start-column="31" selection-end-line="272" selection-end-column="31" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
@@ -599,23 +75,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="input.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/input.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="936">
+              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="288">
-                <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+                <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/model.py">
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/train.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+            <state relative-caret-position="91">
+              <caret line="6" column="10" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -623,23 +108,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="convert.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="convert.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/convert.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+            <state relative-caret-position="91">
+              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="46" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -649,6 +125,18 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="48">
               <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="model.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#12#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -669,6 +157,7 @@
       <find>read_data_batch</find>
       <find>FLAGS</find>
       <find>writeBinaray</find>
+      <find>input</find>
       <find>imagePath</find>
     </findStrings>
   </component>
@@ -681,11 +170,13 @@
         <option value="$PROJECT_DIR$/main.py" />
         <option value="$PROJECT_DIR$/crop_face.py" />
         <option value="$PROJECT_DIR$/Temp.py" />
-        <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/model.py" />
         <option value="$PROJECT_DIR$/data/labels.txt" />
         <option value="$PROJECT_DIR$/config.py" />
         <option value="$PROJECT_DIR$/convert.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/input.py" />
+        <option value="$PROJECT_DIR$/model.py" />
       </list>
     </option>
   </component>
@@ -699,10 +190,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="677" />
-    <option name="y" value="66" />
-    <option name="width" value="1003" />
-    <option name="height" value="945" />
+    <option name="x" value="50" />
+    <option name="y" value="23" />
+    <option name="width" value="1595" />
+    <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -771,7 +262,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.convert">
+  <component name="RunManager" selected="Python.model">
     <configuration name="convert" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Tensorflow_Face_Recognition_CNN" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -805,6 +296,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/crop_face.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="input" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Tensorflow_Face_Recognition_CNN" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/input.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -853,12 +363,14 @@
       <item itemvalue="Python.main" />
       <item itemvalue="Python.model" />
       <item itemvalue="Python.convert" />
+      <item itemvalue="Python.input" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.model" />
+        <item itemvalue="Python.input" />
         <item itemvalue="Python.convert" />
         <item itemvalue="Python.crop_face" />
-        <item itemvalue="Python.model" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -887,18 +399,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900944" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" x="0" y="0" width="200" height="745" id="Documentation" order="5" sideWeight="0.5035377" side_tool="true" weight="0.32882413" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28615385" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28615385" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900944" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.25353774" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900944" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0989011" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21733822" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="right" id="Database" order="3" sideWeight="0.49847096" weight="0.32967034" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.49847096" weight="0.32882413" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
       <window_info anchor="right" id="SciView" order="4" sideWeight="0.49646226" weight="0.32882413" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -909,31 +423,30 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.094017096" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900944" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21774194" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32923076" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
-      <window_info anchor="bottom" id="Python Console" order="12" visible="true" weight="0.25435898" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="right" x="0" y="0" width="370" height="850" id="Documentation" order="5" sideWeight="0.50152904" side_tool="true" visible="true" weight="0.1929182" />
-      <window_info anchor="right" id="Database" order="3" sideWeight="0.49847096" weight="0.32967034" />
-      <window_info anchor="bottom" id="Terminal" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32900944" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49847096" weight="0.32967034" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.32900944" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32923076" />
+      <window_info anchor="right" x="0" y="0" width="200" height="745" id="Documentation" order="5" sideWeight="0.5035377" side_tool="true" weight="0.32882413" />
+      <window_info anchor="right" id="Database" order="3" sideWeight="0.49847096" weight="0.32882413" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32900944" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="SciView" order="4" sideWeight="0.49646226" weight="0.32882413" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.25353774" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -954,32 +467,12 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#16#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="312">
-            <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/model.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1344">
           <caret line="56" column="27" lean-forward="true" selection-start-line="56" selection-start-column="27" selection-end-line="56" selection-end-column="27" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1020,7 +513,7 @@
         <state relative-caret-position="528">
           <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1060,7 +553,7 @@
         <state relative-caret-position="504">
           <caret line="21" column="24" lean-forward="true" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1174,13 +667,20 @@
     <entry file="file://$PROJECT_DIR$/Face_Image/문재인/28.png" />
     <entry file="file://$PROJECT_DIR$/Face_Image/문재인/27.png" />
     <entry file="file://$PROJECT_DIR$/face cnn-559e7cb3cb73.json" />
-    <entry file="file://$PROJECT_DIR$/main.py">
+    <entry file="file://$PROJECT_DIR$/Temp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="601">
+          <caret line="272" column="31" selection-start-line="272" selection-start-column="31" selection-end-line="272" selection-end-column="31" />
           <folding>
-            <element signature="e#0#16#0" expanded="true" />
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="46" />
         </state>
       </provider>
     </entry>
@@ -1198,7 +698,7 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="288">
-            <caret line="12" column="28" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
+            <caret line="12" column="84" selection-start-line="12" selection-start-column="84" selection-end-line="12" selection-end-column="84" />
           </first_editor>
           <second_editor />
         </state>
@@ -1209,22 +709,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Temp.py">
+    <entry file="file://$PROJECT_DIR$/convert.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6528">
-          <caret line="272" column="31" selection-start-line="272" selection-start-column="31" selection-end-line="272" selection-end-column="31" />
+        <state relative-caret-position="91">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="22" column="10" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1236,19 +726,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
+    <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="46" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="46" />
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#16#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/convert.py">
+    <entry file="file://$PROJECT_DIR$/model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+        <state relative-caret-position="409">
+          <caret line="76" column="27" lean-forward="true" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
           <folding>
-            <element signature="e#0#10#0" expanded="true" />
+            <element signature="e#0#12#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/input.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="91">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
           </folding>
         </state>
       </provider>
