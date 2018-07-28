@@ -11,8 +11,7 @@ def read_raw_images(data_set):
     record_bytes = tf.decode_raw(value, tf.uint8)
 
     label = tf.cast(tf.slice(record_bytes, [0], [1]), tf.int32)
-    depth_major = tf.reshape(tf.slice(record_bytes, [1], [image_bytes]),
-        [3, 64, 64])
+    depth_major = tf.reshape(tf.slice(record_bytes, [1], [image_bytes]),[3, 64, 64])
     uint8image = tf.transpose(depth_major, [1, 2, 0])
 
     return uint8image, label
@@ -55,7 +54,7 @@ def inputs(batch_size):
 
     resized_image = tf.image.resize_image_with_crop_or_pad(reshaped_image,64 , 64)
     #float_image = tf.image.per_image_whitening(resized_image)
-
+    print(resized_image)
     return generate_image_and_label_batch(resized_image, label, 10, batch_size, shuffle=True)
 
 

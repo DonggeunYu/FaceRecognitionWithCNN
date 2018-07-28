@@ -1,6 +1,6 @@
 import input
 import tensorflow as tf
-
+import six.moves import urllib
 
 def weight_variable(shape):
     initial = tf.Variable(tf.truncated_normal(shape=shape, stddev=0.1))
@@ -74,7 +74,7 @@ with tf.Session() as sess:
 
     for i in range(1000):
         train_images, train_labels = input.get_data('train', 10)
-        print(train_images)
+        print(train_images[0])
         sess.run(train_step, feed_dict={X: train_images, Y_Label: train_labels})
         if i % 100 == 0:
             eval_images, eval_labels = input.get_data('eval', 10)

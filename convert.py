@@ -72,6 +72,7 @@ for subDir in subDirs:
         imagePath = os.path.join(subDirPath, imageFile)
         writeBinaray(outputFile, imagePath, label)
 
+
 outputFile.close()
 print("Total image count: ", totalImageCount)
 print("Succeed, Generate the Binary file")
