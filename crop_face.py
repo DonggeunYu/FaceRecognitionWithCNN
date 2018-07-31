@@ -25,7 +25,7 @@ def crop(min, max, cnt, people):
     cv2.destroyAllWindows()
 
     img_resize = Image.open('Face_Image/' + people + '/' + str(cnt) + '.png')
-    img_resize.thumbnail((64, 64))
+    img_resize.thumbnail((100, 100))
     img_resize.save('Face_Image/' + people + '/' + str(cnt) + '.png')
     min += 1
 
