@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c91fffa1-997f-4d73-bce1-2e9385e4a50b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/train/호날두/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Face_Image/train/호날두/30.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Temp.py" beforeDir="false" afterPath="$PROJECT_DIR$/Temp.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/input.py" beforeDir="false" afterPath="$PROJECT_DIR$/input.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model.py" beforeDir="false" afterPath="$PROJECT_DIR$/model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
-    </list>
+    <list default="true" id="c91fffa1-997f-4d73-bce1-2e9385e4a50b" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,8 +37,8 @@
       <file leaf-file-name="Temp.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Temp.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1785">
-              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+            <state relative-caret-position="614">
+              <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
               <folding>
                 <element signature="e#303#326#0" expanded="true" />
               </folding>
@@ -406,6 +398,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32900944" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
@@ -413,7 +406,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32900944" />
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.25353774" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29435897" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29435897" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32900944" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11599512" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
@@ -743,8 +736,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Temp.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1785">
-          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
+        <state relative-caret-position="614">
+          <caret line="136" column="24" selection-start-line="136" selection-start-column="24" selection-end-line="136" selection-end-column="24" />
           <folding>
             <element signature="e#303#326#0" expanded="true" />
           </folding>
