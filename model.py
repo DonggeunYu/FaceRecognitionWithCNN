@@ -80,4 +80,4 @@ with tf.Session() as sess:
 
         if step % 100 == 0:
             saver = tf.train.Saver()
-            save_path = saver.save(sess, "./model/model_" + step + ".ckpt")
+            save_path = saver.save(sess, "./model/model_" + str(step) + ".ckpt")
