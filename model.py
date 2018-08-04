@@ -64,7 +64,7 @@ Pool4 = max_pool_2x2(Relu4)
 w_fc1 = tf.Variable(tf.truncated_normal(shape=[4 * 4 * 128, 512], stddev=5e-2))
 b_fc1 = tf.Variable(tf.constant(0.1, shape=[512]))
 
-h_conv5_flat = tf.reshape(Pool4, [ -1, 4 * 4 * 128])
+h_conv5_flat = tf.reshape(Pool4, [-1, 4 * 4 * 128])
 h_fc1 = tf.nn.relu(tf.matmul(h_conv5_flat, w_fc1) + b_fc1)
 
 h_fc1_drop = tf.nn.dropout(h_fc1, keep_prob)
@@ -74,7 +74,7 @@ b_fc2 = tf.Variable(tf.constant(0.1, shape=[3]))
 logits = tf.matmul(h_fc1_drop, w_fc2) + b_fc2
 y_pred = tf.nn.softmax(logits)
 
-x_train, y_train = input.input('train', 50000)
+x_train, y_train = input.input('train', 500)
 x_test, y_test = input.input('eval', 10000)
 
 y_train_one_hot = tf.squeeze(tf.one_hot(y_train, 3), axis=1)
@@ -94,12 +94,14 @@ with tf.Session() as sess:
     # saver.restore(sess, save_path)
 
     for step in range(10000):
-        batch = next_batch(64, x_train, y_train_one_hot.eval())
+        batch = next_batch(1, x_train, y_train_one_hot.eval())
 
-        if step % 10 == 0:
-
-            accuracy_print = accuracy.eval(feed_dict={X: batch[0], Y_Label: batch[1], keep_prob: 1.0})
+        if step % 1 == 0:
+            test_batch = next_batch(1000, x_test, y_test_one_hot.eval())
+            accuracy_print = accuracy.eval(feed_dict={X: test_batch[0], Y_Label: test_batch[1], keep_prob: 1.0})
             Loss_print = loss.eval(feed_dict={X: batch[0], Y_Label: batch[1], keep_prob: 1.0})
             print(step, accuracy_print, Loss_print)
+
+
 
         sess.run(train_step, feed_dict={X: batch[0], Y_Label: batch[1], keep_prob: 0.8})

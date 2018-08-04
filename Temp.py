@@ -100,7 +100,6 @@ x_train, y_train = input.input('train', 5000)
 print(x_train.shape)
 print(y_train.shape)
 
-
 x_test, y_test = input.input('eval', 1000)
 print(x_test.shape)
 print(y_test.shape)
@@ -126,8 +125,8 @@ with tf.Session() as sess:
     sess.run(tf.global_variables_initializer())
 
     # 10000 Step만큼 최적화를 수행합니다.
-    for i in range(10000):
-        batch = next_batch(128, x_train, y_train_one_hot.eval())
+    for i in range(1000):
+        batch = next_batch(64, x_train, y_train_one_hot.eval())
 
         # 100 Step마다 training 데이터셋에 대한 정확도와 loss를 출력합니다.
         if i % 100 == 0:
@@ -139,5 +138,5 @@ with tf.Session() as sess:
         sess.run(train_step, feed_dict={x: batch[0], y: batch[1], keep_prob: 0.8})
 
     # 학습이 끝나면 테스트 데이터에 대한 정확도를 출력합니다.
-    test_batch = next_batch(10000, x_test, y_test_one_hot.eval())
+    test_batch = next_batch(1000, x_test, y_test_one_hot.eval())
     print("테스트 데이터 정확도: %f" % accuracy.eval(feed_dict={x: test_batch[0], y: test_batch[1], keep_prob: 1.0}))

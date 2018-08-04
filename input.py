@@ -22,11 +22,11 @@ def input(data_set, batch_size):
         blur = cv2.blur(np.array(img), (int(tmp), int(tmp)))
         img_batch.append(np.array(blur))
 
-        if people == '메시':
+        if people_random == '메시':
             Y_Labels[i][0] = 0
-        elif people == '손흥민':
+        elif people_random == '손흥민':
             Y_Labels[i][0] = 1
-        elif people == '호날두':
+        elif people_random == '호날두':
             Y_Labels[i][0] = 2
         print(i)
 
