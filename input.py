@@ -8,8 +8,8 @@ import random
 def input(data_set, batch_size):
 
 
-    img_list = (os.listdir('Face_Image/' + data_set + '/호날두'))
-    people = ['메시', '손흥민', '호날두']
+    img_list = (os.listdir('Face_Image/' + data_set + '/ro'))
+    people = ['messy', 'son', 'ro']
     img_batch = []
     Y_Labels = np.zeros((batch_size, 1))
     # Y_Labels = np.zeros((batch_size, 3))
@@ -22,11 +22,11 @@ def input(data_set, batch_size):
         blur = cv2.blur(np.array(img), (int(tmp), int(tmp)))
         img_batch.append(np.array(blur))
 
-        if people_random == '메시':
+        if people_random == 'messy':
             Y_Labels[i][0] = 0
-        elif people_random == '손흥민':
+        elif people_random == 'son':
             Y_Labels[i][0] = 1
-        elif people_random == '호날두':
+        elif people_random == 'ro':
             Y_Labels[i][0] = 2
         print(i)
 
