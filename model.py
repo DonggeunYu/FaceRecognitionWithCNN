@@ -74,8 +74,8 @@ b_fc2 = tf.Variable(tf.constant(0.1, shape=[3]))
 logits = tf.matmul(h_fc1_drop, w_fc2) + b_fc2
 y_pred = tf.nn.softmax(logits)
 
-x_train, y_train = input.input('train', 500)
-x_test, y_test = input.input('eval', 10000)
+x_train, y_train = input.input('train', 5000)
+x_test, y_test = input.input('eval', 1000)
 
 y_train_one_hot = tf.squeeze(tf.one_hot(y_train, 3), axis=1)
 y_test_one_hot = tf.squeeze(tf.one_hot(y_test, 3), axis=1)
@@ -92,16 +92,22 @@ with tf.Session() as sess:
 
     # save_path = "./model/model_1.ckpt"
     # saver.restore(sess, save_path)
+    max_step = 0.0
+    max_accuracy = 0.0
+    max_loss = 0.0
+    for step in range(1000):
+        batch = next_batch(64, x_train, y_train_one_hot.eval())
 
-    for step in range(10000):
-        batch = next_batch(1, x_train, y_train_one_hot.eval())
-
-        if step % 1 == 0:
+        if step % 10 == 0:
             test_batch = next_batch(1000, x_test, y_test_one_hot.eval())
             accuracy_print = accuracy.eval(feed_dict={X: test_batch[0], Y_Label: test_batch[1], keep_prob: 1.0})
             Loss_print = loss.eval(feed_dict={X: batch[0], Y_Label: batch[1], keep_prob: 1.0})
+            max_step = np.maximum(step, max_step)
+            max_accuracy = np.maximum(accuracy_print, max_accuracy)
+            max_loss = np.maximum(Loss_print, max_loss)
             print(step, accuracy_print, Loss_print)
 
 
-
         sess.run(train_step, feed_dict={X: batch[0], Y_Label: batch[1], keep_prob: 0.8})
+
+    print(max_step, max_accuracy, max_loss)
