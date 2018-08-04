@@ -69,7 +69,7 @@ def build_CNN_classifier(x):
     W_conv5 = tf.Variable(tf.truncated_normal(shape=[3, 3, 128, 128], stddev=5e-2))
     b_conv5 = tf.Variable(tf.constant(0.1, shape=[128]))
     h_conv5 = tf.nn.relu(tf.nn.conv2d(h_conv4, W_conv5, strides=[1, 1, 1, 1], padding='SAME') + b_conv5)
-
+    print(h_conv5.shape)
     # Fully Connected Layer 1 -- 2번의 downsampling 이후에, 우리의 32x32 이미지는 8x8x128 특징맵(feature map)이 된다.
     # 이를 384개의 특징들로 맵핑(maping)한다.
     W_fc1 = tf.Variable(tf.truncated_normal(shape=[16 * 16 * 128, 384], stddev=5e-2))

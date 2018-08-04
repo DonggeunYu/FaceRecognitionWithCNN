@@ -12,6 +12,7 @@ def input(data_set, batch_size):
     people = ['메시', '손흥민', '호날두']
     img_batch = []
     Y_Labels = np.zeros((batch_size, 1))
+    # Y_Labels = np.zeros((batch_size, 3))
     for i in range(int(batch_size)):
         people_random = random.choice(people)
         img = Image.open('Face_Image/' + data_set + '/' + people_random + '/' + str(random.choice(img_list)))
