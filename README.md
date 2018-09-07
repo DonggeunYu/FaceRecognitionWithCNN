@@ -14,7 +14,7 @@ CNN(Convolution Neural Network)를 사용하여 얼굴을 인식하여 분류하
 
 하지만 사진의 사이즈나 얼굴이 정확하지 않은 부분은 수작업으로 확인후 train과 eval로 나누어 저장하였다.
 
-Trai : 175장
+Train : 175장
 
 Eval: 25장
 
