@@ -105,7 +105,7 @@ img_batch = [] # 3차원의 이미지를 쑤셔 넣을 공간.
 
 
 
-## Full Sources
+### Full Sources
 
 ~~~python
 from PIL import Image
